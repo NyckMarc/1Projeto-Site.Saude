@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saúde - Calcular IMC</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="./assets/js/css/style.css" media="screen" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light backgroundColorNav">
+        <div class="container-fluid">
+            <div class="divlogo">
+                <img src="./assets/js/css/images/logoSaúde.png" width="200">
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link textNav" href="./Homenyck.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link textNav" href="./Calcularimc.html">Calcular IMC</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link textNav" href="./Cadastrese.html">Cadastro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link textNav  " href="./Feedback.html">FeedBack</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="form-image">
+            <img src="./assets/js/css/images/Cadastro.png" width="500px">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1> Cadastre-se</h1>
+                    </div>
+                    <!--<div class="login-button">
+                        <button><a href="#">Entrar</a> </button>
+                    </div> -->
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="nomecompleto">Nome Completo</label>
+                        <input id="nomecompleto" type="text" name="nomecompleto" placeholder="Nome Completo" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="datadenascimento">Data de Nascimento</label>
+                        <input id="datadenascimento" type="date" name="datadenascimento" placeholder="Data de Nascimento" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="cpf">CPF</label>
+                        <input id="cpf" type="number" name="cpf" placeholder="CPF" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="logradouro">Logradouro</label>
+                        <input id="logradouro" type="text" name="logradouro" placeholder="Logradouro" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="numerodologradouro">Número do Logradouro</label>
+                        <input id="numerodologradouro" type="text" name="numerodologradouro" placeholder="Número do Logradouro" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="cep">CEP</label>
+                        <input id="cep" type="text" name="cep" placeholder="CEP" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="cidade">Cidade</label>
+                        <input id="cidade" type="text" name="cidade" placeholder="Cidade" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="uf">UF</label>
+                        <input id="uf" type="text" name="uf" placeholder="UF" required>
+                    </div>
+                </div>
+
+                <div class="gender-input">
+                    <div class="gender-title">
+                        <h6>Gênero</h6>
+                    </div>
+
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input type="radio" id="female" name="gender">
+                            <label for="female">Feminino</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" id="male" name="gender">
+                            <label for="male">Masculino</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" id="others" name="gender">
+                            <label for="others">Outros</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" id="none" name="gender">
+                            <label for="none">Não quero dizer</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="continue-button">
+                    <button><a href="#">Cadastrar</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
